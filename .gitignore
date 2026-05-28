@@ -1,0 +1,495 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============================================================
+# Operating System Files
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Icon
+.Icon
+*.swp
+*~.nib
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+
+# Linux
+.directory
+.Trash-*
+
+# ============================================================
+# IDE and Editor Files
+# ============================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.vs/
+
+# IntelliJ IDEA / PyCharm / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt][a-z]
+Session.vim
+.netrwhist
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Atom
+.atom/
+
+# Nano
+.nano_history
+
+# ============================================================
+# Build Files and Artifacts
+# ============================================================
+
+# Compiled object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Compiled dynamic libraries
+*.dylib
+*.dll
+*.so.*
+
+# Compiled static libraries
+*.a
+*.lib
+*.la
+*.lo
+
+# Output files
+*.out
+*.app
+*.exe
+*.dll
+*.exe.config
+
+# ============================================================
+# Office Files (for pedagogical use)
+# ============================================================
+
+# Microsoft Office
+.~lock.*
+~$*
+*.tmp
+*.bak
+
+# PowerPoint
+*.pptx
+!presentations/example*.pptx
+!templates/presentation-template.pptx
+*.odp
+
+# Excel
+*.xlsx
+*.xls
+*.ods
+!templates/grading-template.xlsx
+
+# Word
+*.docx
+*.doc
+*.odt
+
+# ============================================================
+# Media Files (optional - uncomment if not needed)
+# ============================================================
+
+# Video files
+# *.mp4
+# *.avi
+# *.mov
+# *.flv
+# *.wmv
+
+# Audio files
+# *.mp3
+# *.wav
+# *.flac
+# *.aac
+
+# Image files (large files - consider uploading to CDN)
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.bmp
+# *.tiff
+# *.psd
+
+# ============================================================
+# Sensitive Files (IMPORTANT!)
+# ============================================================
+
+# API Keys and secrets
+.env
+.env.local
+.env*.local
+secrets.json
+config.json
+credentials.json
+*.pem
+*.key
+
+# Student information (if storing private data)
+students-data/
+personal-info/
+grades-backup/
+*.csv
+*-students.txt
+
+# Session files
+sessions/
+cache/
+.session
+
+# Private notes and comments
+private/
+notes/
+personal-notes.md
+
+# ============================================================
+# Database Files
+# ============================================================
+
+*.db
+*.sqlite
+*.sqlite3
+*.sqlc
+*.sql.bak
+
+# ============================================================
+# Backup and Temporary Files
+# ============================================================
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+*.temp
+*~
+*.orig
+
+# Archive files
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.gz
+
+# Automatic backups
+auto-backup/
+backups/
+.backup/
+
+# ============================================================
+# System Files
+# ============================================================
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.ico
+*Thumbs.db*
+
+# System temporary files
+/tmp/
+/temp/
+*.tmp
+
+# ============================================================
+# Node.js (if using web-based tools)
+# ============================================================
+
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# ============================================================
+# Ruby/Gems (if using Jekyll for GitHub Pages)
+# ============================================================
+
+.bundle
+vendor/bundle/
+Gemfile.lock
+
+# ============================================================
+# Go
+# ============================================================
+
+go.sum
+
+# ============================================================
+# Java
+# ============================================================
+
+*.class
+*.jar
+target/
+
+# ============================================================
+# C/C++
+# ============================================================
+
+*.o
+*.out
+
+# ============================================================
+# Local Development
+# ============================================================
+
+# Local configuration
+local.conf
+.local/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+
+# IDE temp files
+.vscode/settings.json
+.idea/workspace.xml
+
+# ============================================================
+# Project-Specific (Pedagogical Tools)
+# ============================================================
+
+# Generated files
+*.pdf-temp
+*.pptx-temp
+*.docx-temp
+
+# Student submissions (if storing)
+submissions/
+student-work/
+
+# Test results
+test-results/
+coverage-reports/
+
+# Temporary editing files
+_draft/
+_temp/
+_archive/
+.old/
+
+# ============================================================
+# Documentation Builds
+# ============================================================
+
+# Sphinx
+docs/_build/
+docs/.buildinfo
+
+# MkDocs
+site/
+.mkdocs.yml.bak
+
+# Gitbook
+_book/
+node_modules/
+
+# ============================================================
+# Specific to Repository
+# ============================================================
+
+# Do NOT ignore (important files)
+!.gitkeep
+!.github/
+!templates/
+!lessons/
+!presentations/
+!tests/
+!materials/
+!ai-prompts/
+!README.md
+!CHANGELOG.md
+!CONTRIBUTING.md
+!LICENSE
+
+# ============================================================
+# Notes
+# ============================================================
+
+# .gitignore usage:
+# Lines starting with '#' are comments
+# Trailing spaces are ignored unless they are quoted with backslash ("\ ")
+# An optional prefix "!" negates the pattern; any matching file excluded by a
+#   previous pattern will become included again. Put a backslash ("\")
+#   in front of the first "!" for patterns that begin with literal "!", for example,
+#   "\!important!.txt".
+# If there is a separator at the beginning or the end of the pattern, then the
+#   pattern is relative to the directory level of the particular .gitignore file
+#   itself. Otherwise the pattern may also match at any level below the .gitignore level.
