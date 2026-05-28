@@ -1,0 +1,20 @@
+Временные файлы Office
+
+~$*
+
+Временные файлы
+
+*.tmp
+
+Кэш
+
+.cache/
+
+VS Code
+
+.vscode/
+
+Windows
+
+Thumbs.db
+Desktop.ini
